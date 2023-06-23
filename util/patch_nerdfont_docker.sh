@@ -5,5 +5,5 @@
 # Creates the patched font in the given output dir
 
 function patch_nerdfont_docker() {
-  sudo docker run --rm -v "$1":/in -v "$2":/out nerdfonts/patcher --complete
+  sudo docker run --rm -v "$1":/in -v "$2":/out nerdfonts/patcher --complete --mono
 }
