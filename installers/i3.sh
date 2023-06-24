@@ -10,3 +10,11 @@ sudo apt update -y
 sudo apt install i3 -y
 
 rm ./keyring.deb
+
+# Remove existing config and set symlink to this repo
+rm -rf ~/.config/i3
+mkdir ~/.config/i3
+
+current_dir=$(pwd)
+ln -sf "${current_dir}/config/i3/config" ~/.config/i3/config
+
