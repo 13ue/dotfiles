@@ -30,3 +30,9 @@ cd my_mix_project
 asdf install
 mix
 ```
+
+### Styling via `lxappearence`
+
+Some styles are not set automatically, like fonts in applications,
+icon theme for folders and gnome color scheme. This is to be done via 
+`lxappearence` when needed.
