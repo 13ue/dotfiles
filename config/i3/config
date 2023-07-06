@@ -39,7 +39,10 @@ exec --no-startup-id nm-applet
 
 exec xrandr --output eDP-1-1 --auto
 exec xrandr --output DP-1 --auto --left-of eDP-1-1
-
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym Shift+XF86MonBrightnessDown exec brightnessctl set 100%-
+bindsym Shift+XF86MonBrightnessUp exec brightnessctl set +100%
 #### 13ue end
 
 
