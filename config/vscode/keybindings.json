@@ -1,0 +1,62 @@
+// // Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+k+c",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "shift+alt+g",
+        "command": "git.checkout"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "editor.action.jumpToBracket"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "editor.action.jumpToBracket"
+    },
+    {
+        "key": "alt+shift+down",
+        "command": "editor.action.copyLinesDownAction"
+    },
+    {
+        "key": "alt+shift+up",
+        "command": "editor.action.copyLinesUpAction"
+    },
+    {
+        "key": "alt+shift+f",
+        "command": "editor.action.formatDocument"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteAllLeft"
+    },
+    {
+        "key": "cmd+shift+alt+T",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "code ~/Documents/prg/aibeatz/aibeatz.todo\u000D"
+        }
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "gitlens.views.worktrees.focus"
+    }
+]

@@ -1,0 +1,178 @@
+{
+    "editor.cursorSurroundingLines": 100,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 400,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.minimap.enabled": false,
+    "phpcs.autoConfigSearch": false,
+    "phpcs.showSources": true,
+    "phpcs.executablePath": "src/vendor/bin/phpcs",
+    "phpcs.standard": "src/phpcs.xml",
+    "cSpell.userWords": [
+        "Aibeatz",
+        "alpinejs",
+        "backtest",
+        "backtests",
+        "bookticker",
+        "BTCUSDT",
+        "Bybit",
+        "Cldr",
+        "coint",
+        "cointegrated",
+        "cointegration",
+        "cointigration",
+        "Cryptolytics",
+        "curr",
+        "dgettext",
+        "Dispatchable",
+        "esbuild",
+        "ETHUSD",
+        "Heroicons",
+        "Hotlist",
+        "ilike",
+        "Indefy",
+        "itertuples",
+        "Kauz",
+        "klines",
+        "Lennart",
+        "Linalg",
+        "lookback",
+        "mjml",
+        "noreply",
+        "Numerix",
+        "Oban",
+        "OHLC",
+        "Plotly",
+        "polyline",
+        "quantile",
+        "quantiles",
+        "quote_a_bookticker",
+        "rebalance",
+        "recalc",
+        "retryable",
+        "rotenburg",
+        "schwurbel",
+        "Signees",
+        "Sockex",
+        "Stoerti",
+        "Strats",
+        "subquery",
+        "svgs",
+        "tabler",
+        "tiktok",
+        "topbar",
+        "trackout",
+        "trackouts",
+        "trunc",
+        "untils",
+        "upsert",
+        "upserted",
+        "upserts",
+        "USDCUSDT",
+        "vstack",
+        "Watchlist",
+        "whitespaces"
+    ],
+    "terminal.integrated.inheritEnv": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.cursorBlinking": "solid",
+    "git.confirmSync": false,
+    "editor.inlineSuggest.enabled": true,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "notebook.lineNumbers": "on",
+    "notebook.output.textLineLimit": 100,
+    "notebook.diff.ignoreOutputs": true,
+    "notebook.diff.ignoreMetadata": true,
+    "[elixir]": {
+        "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[phoenix-heex]": {
+        "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "gitlens.defaultGravatarsStyle": "identicon",
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": {
+            "blame": false,
+            "compare": false
+        },
+        "editorTab": {
+            "clipboard": false,
+            "compare": false,
+            "history": false,
+            "remote": false
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scm": {
+            "graph": true
+        },
+        "scmRepositoryInline": {
+            "graph": true
+        },
+        "scmRepository": {
+            "authors": true,
+            "graph": false
+        },
+        "scmGroupInline": {
+            "stash": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true
+        },
+        "scmItemInline": {},
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": false,
+            "stash": true
+        }
+    },
+    "elixirLS.envVariables": {},
+    "elixirLS.suggestSpecs": false,
+    "gitlens.graph.experimental.minimap.enabled": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "solidity.defaultCompiler": "localNodeModule",
+    "editor.lineHeight": 2.15,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.cwd": "/opt/homebrew/bin/fish",
+    "elixirLS.dialyzerEnabled": false,
+    "elixirLS.dialyzerFormat": "dialyxir_short",
+    "elixirLS.trace.server": "verbose",
+    "elixirLS.mixEnv": "dev",
+    "elixir.autoSpawnElixirSenseServers": false,
+    "elixir.useElixirSense": false,
+    "window.autoDetectColorScheme": true,
+    "workbench.colorTheme": "Catppuccin Latte",
+    "window.zoomLevel": 1
+
+}

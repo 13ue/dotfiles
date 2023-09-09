@@ -6,11 +6,16 @@
 
 lvim.builtin.treesitter.ensure_installed = {
   "elixir",
+  "python",
 }
 
 require('lspconfig').elixirls.setup {
   cmd = { "/home/lennart/.elixir-ls/release/language_server.sh" },
 }
+
+local formatters = require("lvim.lsp.null-ls.formatters")
+
+formatters.setup({ { name = "black" } })
 
 lvim.plugins = {
   { "catppuccin/nvim",          name = "catppuccin", priority = 1000 },
@@ -18,4 +23,3 @@ lvim.plugins = {
 }
 
 lvim.colorscheme = "catppuccin-latte"
-
